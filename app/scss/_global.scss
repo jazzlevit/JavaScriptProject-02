@@ -1,0 +1,21 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(224, 224, 220);
+  font-size: 16px;
+  line-height: 26px;
+  @extend %roboto-400;
+}
+
+a {
+  font-size: 16px;
+  line-height: 26px;
+  color: black;
+}
+
+.main {
+  flex-grow: 1;
+}

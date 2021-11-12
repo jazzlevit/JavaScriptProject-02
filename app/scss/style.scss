@@ -1,0 +1,100 @@
+@import "vars";
+@import "fonts";
+@import "reset";
+@import "global";
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+.header {
+    padding: 10px 0 10px 0;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(74, 50, 85);
+    &__content-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        
+    }
+    &__logo a {
+        font-size: 30px;
+        font-weight: bold;
+        color:  #fff;
+    }
+    &__nav {
+
+    }
+    &__nav-list {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    &__nav-list a:nth-child(2),
+    &__nav-list a:nth-child(3) {
+        margin-left: 60px;
+    }
+    &__nav-list a:hover {
+        text-decoration: underline;
+    }
+    &__nav-list a {
+        color: #fff;
+    }
+}
+.items-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: $gap;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    .pl15 {
+        padding-left: 15px;
+    }
+    &__card {
+        background: rgb(241, 224, 223);
+        border-radius: 10px;
+        box-shadow: 12px 12px 8px 1px rgba(0, 0, 0, 0.1);
+    }
+    &__image {
+        max-width: 250px;
+        border-radius: 10px 10px 0 0;
+    }
+    &__title {
+        font-weight: bold;
+        font-size: 18px;
+    }
+}
+
+.input-wrapper {
+    position: relative;
+}
+
+.password {
+    width: 100%;
+    outline: none;
+    border: 2px solid teal;
+    border-radius: 5px;
+}
+
+.bi {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    cursor: pointer;
+}
+
+.input-hide {
+    width: 30px;
+    height: 30px;
+    background-color: teal;
+}
+
+
+
+
+@import "media";

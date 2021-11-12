@@ -1,0 +1,65 @@
+[
+    {
+        "id": 0,
+        "name": "Kitfort",
+        "description": "Блендер",
+        "price": 1000,
+        "img": "./images/kitfort.jpeg"
+    },
+    {
+        "id": 1,
+        "name": "Indesit",
+        "description": "Стиральная машина",
+        "price": 8000,
+        "img": "./images/indesit1.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Gunter & Hauer",
+        "description": "Кухонная вытяжка",
+        "price": 12000,
+        "img": "./images/gunter-hauer.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Electrolux",
+        "description": "Посудомоечная машина",
+        "price": 13000,
+        "img": "./images/electrolux.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Gorenje",
+        "description": "Духовой шкаф",
+        "price": 11000,
+        "img": "./images/gorenje.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "Bosh",
+        "description": "Варочная поверхность",
+        "price": 7000,
+        "img": "./images/bosh.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "Ariston",
+        "description": "Стиральная машина",
+        "price": 18000,
+        "img": "./images/ariston-hotpoint.jpeg"
+    },
+    {
+        "id": 7,
+        "name": "Whirlpool",
+        "description": "Микроволновая печь",
+        "price": 7000,
+        "img": "./images/whirlpool.jpeg"
+    },
+    {
+        "id": 8,
+        "name": "Delonghi",
+        "description": "Кофемашина",
+        "price": 9000,
+        "img": "./images/delonghi.jpeg"
+    }
+]
